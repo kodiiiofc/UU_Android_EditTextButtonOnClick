@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">FirstApp</string>
+    <string name="result">Результат: </string>
+    <string name="hint_input_text">Поле ввода текста</string>
+    <string name="header">Все наоборот</string>
+    <string name="symbolCounter">Количество символов: </string>
+</resources>
