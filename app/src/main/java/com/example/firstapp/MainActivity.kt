@@ -39,8 +39,8 @@ class MainActivity : AppCompatActivity() {
 
     fun onButtonClick(view: View) {
         val sendText = editTextET.text
-        result.text = "" + getText(R.string.result) + sendText.reversed()
-        symbolCounter.text = "" + getText(R.string.symbolCounter) + sendText.count { !it.isWhitespace() }
+        result.text = "" + getText(R.string.result) + " " + sendText.reversed()
+        symbolCounter.text = "" + getText(R.string.symbolCounter) + " " + sendText.count { !it.isWhitespace() }
     }
 
 }
